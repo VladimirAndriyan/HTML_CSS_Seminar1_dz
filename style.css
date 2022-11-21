@@ -17,6 +17,10 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
 }
 
 .container {
@@ -27,14 +31,14 @@
 
 .url_head {
     text-decoration: none;
-    font-size: 35px;
-    line-height: 40px;
-    color: rgb(243, 227, 9);
+    font-size: 16px;
+    line-height: 20px;
+    color: cornflowerblue;
     text-align: center;
     padding: 10px;
     width: 100px;
     height: 40px;
-    background-color: rgb(243, 92, 235)
+    background-color: rgb(201, 241, 19)
 }
 
 .url_head:hover {
@@ -68,4 +72,23 @@
     justify-content: flex-start;
     background: rgb(0, 89, 255);
     height: 100px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.heading_2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
 }
